@@ -1,0 +1,26 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.jack",
+                "name": null,
+                "platform": "person",
+                "unique_id": "f9baad7f7ded4ec4b841248385d74c45"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

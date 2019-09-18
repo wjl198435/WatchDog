@@ -1,0 +1,16 @@
+---
+- name: floorplan
+  sidebar_title: 区域一
+  sidebar_icon: mdi:video
+  url_path: floorplan
+  config:
+    hide_app_toolbar:
+    config: /local/custom_ui/floorplan/floorplan.yaml
+
+- name: clock
+  sidebar_title: 主界面
+  sidebar_icon: mdi:home
+  url_path: clock
+  config:
+    hide_app_toolbar:
+    config: /local/custom_ui/floorplan/floorclock.yaml

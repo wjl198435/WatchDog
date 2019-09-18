@@ -1,0 +1,3 @@
+2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.components.panel_custom] Unable to find webcomponent for 情一: /home/jack/.homeassistant/panels/情一.html
+2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.components.panel_custom] Unable to find webcomponent for 概览: /home/jack/.homeassistant/panels/概览.html
+2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.setup] Setup failed for panel_custom: Integration failed to initialize.
