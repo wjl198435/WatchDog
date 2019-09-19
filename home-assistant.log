@@ -1,3 +1,5 @@
-2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.components.panel_custom] Unable to find webcomponent for 情一: /home/jack/.homeassistant/panels/情一.html
-2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.components.panel_custom] Unable to find webcomponent for 概览: /home/jack/.homeassistant/panels/概览.html
-2019-09-18 16:08:37 ERROR (MainThread) [homeassistant.setup] Setup failed for panel_custom: Integration failed to initialize.
+2019-09-19 14:09:28 WARNING (zeroconf-ServiceBrowser__googlecast._tcp.local.) [zeroconf] Exception occurred:
+Traceback (most recent call last):
+  File "/home/jack/.homeassistant/deps/lib/python3.6/site-packages/zeroconf.py", line 2245, in send
+    bytes_sent = s.sendto(packet, 0, (addr, port))
+OSError: [Errno 22] Invalid argument

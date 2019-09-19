@@ -1,5 +1,5 @@
 name: Alarm Panel
-image: /local/custom_ui/floorplan/alarm.svg
+image: /local/custom_ui/floorplan/watchdog.svg
 stylesheet: /local/custom_ui/floorplan/alarm.css
 
 rules:

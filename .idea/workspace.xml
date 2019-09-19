@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f85df1f5-0a28-4354-902d-43119a3c10ee" name="Default Changelist" comment="" />
+    <list default="true" id="f85df1f5-0a28-4354-902d-43119a3c10ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/auth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storage/core.restore_state" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/core.restore_state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-assistant.log" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-assistant_v2.db" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant_v2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qz7fCiLcRo8lwtLqR8TzMUPpOP" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
   </component>
   <component name="RecentsManager">
@@ -41,5 +54,16 @@
       <updated>1568761671537</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
