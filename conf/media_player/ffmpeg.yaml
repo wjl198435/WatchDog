@@ -1,0 +1,7 @@
+#sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
+#sudo apt-get update
+#sudo apt-get install ffmpeg
+
+- platform: ffmpeg
+  name:  Camera
+  input: -stream_loop -1 -re -i /home/jack/Videos/SVID_20190829_165829_1.mp4

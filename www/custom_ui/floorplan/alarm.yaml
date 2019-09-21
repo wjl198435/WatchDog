@@ -2,6 +2,13 @@ name: Alarm Panel
 image: /local/custom_ui/floorplan/watchdog.svg
 stylesheet: /local/custom_ui/floorplan/alarm.css
 
+
+# These options are optional
+warnings:                  # enable warnings (to find out why things might ot be working correctly)
+pan_zoom:                  # enable experimental panning / zooming
+hide_app_toolbar:          # hide the application toolbar (when used as a custom panel)
+date_format: DD-MMM-YYYY   # Date format to use in hover-over text
+
 rules:
   - name: input_booleans
     entities:

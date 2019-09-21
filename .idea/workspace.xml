@@ -2,13 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85df1f5-0a28-4354-902d-43119a3c10ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/media_player/ffmpeg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gsp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gstreamer_player-1.1.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gstreamer_player-1.1.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gstreamer_player-1.1.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gstreamer_player-1.1.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/gstreamer_player-1.1.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/ha_ffmpeg-2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/haffmpeg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/haffmpeg/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/haffmpeg/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/haffmpeg/sensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lib/python3.6/site-packages/haffmpeg/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ffsever/ReadME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ffsever/__MACOSX/._ffserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ffsever/ffserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ffsever/ffserver-3.4-linux-64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ffsever/ffserver_camera_mp4.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pip_progress" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/auth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/core.restore_state" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/core.restore_state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-assistant.log" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-assistant_v2.db" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant_v2.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/alarm.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +44,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qz7fCiLcRo8lwtLqR8TzMUPpOP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools/ffsever" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/conf" />
     </key>
@@ -60,10 +90,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,5 +1,2 @@
-2019-09-19 14:09:28 WARNING (zeroconf-ServiceBrowser__googlecast._tcp.local.) [zeroconf] Exception occurred:
-Traceback (most recent call last):
-  File "/home/jack/.homeassistant/deps/lib/python3.6/site-packages/zeroconf.py", line 2245, in send
-    bytes_sent = s.sendto(packet, 0, (addr, port))
-OSError: [Errno 22] Invalid argument
+2019-09-20 10:24:14 ERROR (MainThread) [homeassistant.config] Invalid config for [ffmpeg]: expected a dictionary for dictionary value @ data['ffmpeg']. Got [OrderedDict([('platform', 'ffmpeg'), ('name', 'Camera'), ('input', '-i /home/jack/Videos/SVID_20190829_165829_1.mp4')])]. (See /home/jack/.homeassistant/configuration.yaml, line 12). Please check the docs at https://home-assistant.io/components/ffmpeg/
+2019-09-20 10:24:14 ERROR (MainThread) [homeassistant.setup] Setup failed for ffmpeg: Invalid config.
