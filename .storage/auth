@@ -48,7 +48,7 @@
                 "created_at": "2019-09-17T23:53:37.943023+00:00",
                 "id": "fca467959083440b90afffb51bcdc2d8",
                 "jwt_key": "4954c157e8e85e3da519e38a433187136ec5a07f8f1508d08d4a73a2b24768bf09c0149227bfad69e0aeb6741bf41c5fa36207cb40c8f1028bd1001170fdcc9c",
-                "last_used_at": "2019-09-20T02:19:53.990466+00:00",
+                "last_used_at": "2019-09-23T23:10:49.726090+00:00",
                 "last_used_ip": "10.137.2.10",
                 "token": "30d4e17b65c1e17143475391ac6ee71028f544076333640ac7dc7c05cf29b69ee3a3b2d4bce456c3ca5e695321ed99facd2cdd6415d7f6e886b06e5c27c24739",
                 "token_type": "normal",
@@ -79,6 +79,20 @@
                 "last_used_at": "2019-09-19T12:20:25.840546+00:00",
                 "last_used_ip": "10.128.160.222",
                 "token": "83453c4ab6c762c8f178b87466c227fc3d13b3a3e88b5fdad69696590a014909e73a518773545c04f27c83e4ffe0057771b0327c0980e164579bf1f0cc61a3d5",
+                "token_type": "normal",
+                "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "created_at": "2019-09-22T09:48:36.329857+00:00",
+                "id": "5c75f66e752f4cdfaef8d03d166a1a63",
+                "jwt_key": "768611cf6f461acb685c129464def798afb36a683c1011b2760989574d949235e0f8376c99bd78ea21e2fc772b2a51a47abb0ec8370d6d62414e2f4c679fd070",
+                "last_used_at": "2019-09-22T09:48:36.329915+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "34479500097a712d064ce6c0bd9bf90810ef64b79278a5ccd404bad9d459053409dd74e667c5915047347d1ad92ff5eee733d85cb3ac5e5198f46e3aad752ca5",
                 "token_type": "normal",
                 "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
             }

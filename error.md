@@ -1,4 +1,4 @@
-## 1.安装pip install av 失败解决办法:
+## 1.stream:安装pip install av 失败解决办法:
     Could not find libavformat with pkg-config.
     Could not find libavcodec with pkg-config.
     Could not find libavdevice with pkg-config.
@@ -34,3 +34,7 @@ make
 sudo make install
 
 pip install av
+
+## 2.可选stream安装
+   sudo apt-get install -y python-dev pkg-config libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
+Te

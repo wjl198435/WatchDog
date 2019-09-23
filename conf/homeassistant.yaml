@@ -1,4 +1,5 @@
 ---
+
 auth_providers: !include auth_providers.yaml
 customize: !include customize.yaml
 customize_glob: !include customize-glob.yaml
@@ -10,5 +11,7 @@ packages: !include_dir_named packages/
 temperature_unit: F
 time_zone: !secret base_time_zone
 unit_system: imperial
+
+
 #whitelist_external_dirs:
 #  - /shared

@@ -1,2 +1,1 @@
-2019-09-20 10:24:14 ERROR (MainThread) [homeassistant.config] Invalid config for [ffmpeg]: expected a dictionary for dictionary value @ data['ffmpeg']. Got [OrderedDict([('platform', 'ffmpeg'), ('name', 'Camera'), ('input', '-i /home/jack/Videos/SVID_20190829_165829_1.mp4')])]. (See /home/jack/.homeassistant/configuration.yaml, line 12). Please check the docs at https://home-assistant.io/components/ffmpeg/
-2019-09-20 10:24:14 ERROR (MainThread) [homeassistant.setup] Setup failed for ffmpeg: Invalid config.
+2019-09-24 07:10:39 ERROR (SyncWorker_1) [homeassistant.util.yaml.loader] YAML file /home/jack/.homeassistant/configuration.yaml contains duplicate key "default_config". Check lines 2 and 12.
