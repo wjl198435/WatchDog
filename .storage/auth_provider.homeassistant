@@ -4,6 +4,10 @@
             {
                 "password": "JDJiJDEyJFJxQzN6THZYM3hxd2lXT3Fsb3FEdGUvUFNaNkJWbUhpQVd4U0FWYU5FRXNxeFdqb3BqQmNX",
                 "username": "jack"
+            },
+            {
+                "password": "JDJiJDEyJDR6YWs2SU44Mm9TTTJQN2pOUTBESHVpYk1XcmdVaGdHaDFCL0NWeXlITXRrM1FwVjZWbVU2",
+                "username": "mqtt"
             }
         ]
     },

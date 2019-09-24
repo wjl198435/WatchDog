@@ -1,0 +1,17 @@
+---
+broker: 0.0.0.0
+port: 1883
+client_id: demo_wd
+username: !secret mosquitto_username
+password: !secret mosquitto_password
+protocol: 3.1
+
+discovery: true
+discovery_prefix: homeassistant
+
+birth_message:
+  topic: 'hass/status'
+  payload: 'online'
+will_message:
+  topic: 'hass/status'
+  payload: 'offline'

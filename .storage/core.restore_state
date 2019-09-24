@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-09-24T02:48:04.594003+00:00",
+            "last_seen": "2019-09-24T07:53:31.444937+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,14 +10,85 @@
                     "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
                 },
                 "context": {
-                    "id": "9c80046fccd649a19a374e42315cf56f",
+                    "id": "c351c772a6be49bebf5b27ee63ded726",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.jack",
-                "last_changed": "2019-09-24T02:47:46.850938+00:00",
-                "last_updated": "2019-09-24T02:47:52.419442+00:00",
+                "last_changed": "2019-09-24T07:51:41.420735+00:00",
+                "last_updated": "2019-09-24T07:51:47.049194+00:00",
                 "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T07:53:31.444937+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "MQTT Light",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "88cabf8c44a145d8aa1b10dd3ff1f9c2",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.mqtt_light",
+                "last_changed": "2019-09-24T07:51:41.421186+00:00",
+                "last_updated": "2019-09-24T07:51:41.421186+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T07:53:31.444937+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Demo Switch"
+                },
+                "context": {
+                    "id": "e89f71d198a640408cfd3cae0fa90f2f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.demo_switch",
+                "last_changed": "2019-09-24T07:51:41.433489+00:00",
+                "last_updated": "2019-09-24T07:51:41.433489+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T07:30:10.467754+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "MQTT Switch"
+                },
+                "context": {
+                    "id": "5465c80562b54bf69ef690b0126618e3",
+                    "parent_id": null,
+                    "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
+                },
+                "entity_id": "switch.mqtt_switch",
+                "last_changed": "2019-09-24T07:29:27.752059+00:00",
+                "last_updated": "2019-09-24T07:29:27.752059+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-24T06:49:09.196074+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Bedroom Switch"
+                },
+                "context": {
+                    "id": "981112e8aca5484886427eff1d89be72",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.bedroom_switch",
+                "last_changed": "2019-09-24T06:44:50.620161+00:00",
+                "last_updated": "2019-09-24T06:44:50.620161+00:00",
+                "state": "unavailable"
             }
         }
     ],

@@ -5,7 +5,7 @@
                 "connection_class": "local_push",
                 "data": {},
                 "domain": "mqtt",
-                "entry_id": "b412bced792546f79ed3602b5b046ade",
+                "entry_id": "f18800f06c384a198ffec29b8734c806",
                 "options": {},
                 "source": "import",
                 "system_options": {

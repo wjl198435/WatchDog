@@ -1,3 +1,6 @@
+## 通过homeassistant集成安装  Configuration > Users (manage users)
+    Configuration > Integrations and select configure next to MQTT
+
 ## 1.ubuntu安装mqtt broker -mosquitto (https://mosquitto.org/download/)
     1.1 #sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
     1.2 #sudo apt-get update

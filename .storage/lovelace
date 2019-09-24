@@ -9,25 +9,7 @@
                         "person.jack",
                         "sun.sun"
                     ],
-                    "cards": [
-                        {
-                            "entities": [
-                                "floorplan.hours",
-                                "floorplan.minutes"
-                            ],
-                            "title": "",
-                            "type": "entities"
-                        },
-                        {
-                            "entity": "media_player.vlc_player",
-                            "type": "media-control"
-                        },
-                        {
-                            "aspect_ratio": "50%",
-                            "type": "iframe",
-                            "url": "rtsp://localhost:7654/myrtsp"
-                        }
-                    ],
+                    "cards": [],
                     "path": "default_view",
                     "title": "Home"
                 }

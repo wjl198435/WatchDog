@@ -1,6 +1,6 @@
 
 # Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
+#default_config:
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
@@ -14,20 +14,31 @@ default_config:
 
 #camera: !include conf/media_player/ffmpeg.yaml
 
+
 panel_custom: !include conf/panel.yaml
 
-recorder: !include recorder.yaml
+recorder: !include conf/recorder.yaml
+logger: !include conf/logger.yaml
+
 stream:
-
-mqtt: !include conf/platforms/mosquitto.yaml
-
-media_player :
-  - platform: vlc
-    name: VLC player
 
 weather:
   - platform: darksky
     api_key: 8374208137583d64d329f959b166f164
+#  需要启动 sudo service mosquitto start
+mqtt: !include conf/mosquitto.yaml
+switch: !include conf/platforms/mqtt/switches.yaml
+light:  !include conf/platforms/mqtt/lights.yaml
+sensor: !include conf/platforms/mqtt/sensors.yaml
+fan: !include conf/platforms/mqtt/fans.yaml
+
+
+
+#media_player :
+#  - platform: vlc
+#    name: VLC player
+
+
 
 #light: !include conf/lights/street_light.yaml
 
