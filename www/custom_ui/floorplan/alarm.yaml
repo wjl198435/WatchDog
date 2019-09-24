@@ -108,71 +108,71 @@ rules:
       - switch.pool_deck
     states:
       - state: 'on'
-        class: 'light-blue-on'
+        class: 'lights-blue-on'
       - state: 'off'
-        class: 'outdoor-light-off'
+        class: 'outdoor-lights-off'
 
   - name: Lights
     entities:
-      - light.kids_hallway
-      - light.bedroom_hallway
+      - lights.kids_hallway
+      - lights.bedroom_hallway
       - light_upstairs_hallway
-      - light.m1_back_left
-      - light.m1_back_right
-      - light.m1_front_left
-      - light.m1_front_right
-      - light.m1_slider
-      - light.office_lamp
-      - light.den_lamp
-      - light.f2
-      - light.f1
-      - light.s1
-      - light.s2
-      - light.s3
-      - light.s4
-      - light.d1
-      - light.d2
-      - light.k1
-      - light.k2
-      - light.k3
-      - light.k4
-      - light.k5
-      - light.k6
-      - light.sink
-      - light.fridge
-      - light.couch_1
-      - light.tv_light
-      - light.bedroom
-      - light.justin_go
-      - light.paige_go
-      - light.garage_attic
-      - light.upstairs_lamp
+      - lights.m1_back_left
+      - lights.m1_back_right
+      - lights.m1_front_left
+      - lights.m1_front_right
+      - lights.m1_slider
+      - lights.office_lamp
+      - lights.den_lamp
+      - lights.f2
+      - lights.f1
+      - lights.s1
+      - lights.s2
+      - lights.s3
+      - lights.s4
+      - lights.d1
+      - lights.d2
+      - lights.k1
+      - lights.k2
+      - lights.k3
+      - lights.k4
+      - lights.k5
+      - lights.k6
+      - lights.sink
+      - lights.fridge
+      - lights.couch_1
+      - lights.tv_light
+      - lights.bedroom
+      - lights.justin_go
+      - lights.paige_go
+      - lights.garage_attic
+      - lights.upstairs_lamp
     states:
       - state: 'on'
-        class: 'light-on'
+        class: 'lights-on'
       - state: 'off'
-        class: 'light-off'
+        class: 'lights-off'
 
   - name: Outdoor Lights
     entities:
-      - light.p1_front_left
-      - light.p1_front_right
-      - light.p1_back_left
-      - light.p1_back_right
-      - light.outdoor_bathroom
-      - light.outdoor_foyer
-      - light.outdoor_sconce_1
-      - light.outdoor_sconce_2
-      - light.outdoor_sconce_3
-      - light.led_garage_large
-      - light.led_garage_small
-      - light.led_outdoor_den
-      - light.stone_door
+      - lights.p1_front_left
+      - lights.p1_front_right
+      - lights.p1_back_left
+      - lights.p1_back_right
+      - lights.outdoor_bathroom
+      - lights.outdoor_foyer
+      - lights.outdoor_sconce_1
+      - lights.outdoor_sconce_2
+      - lights.outdoor_sconce_3
+      - lights.led_garage_large
+      - lights.led_garage_small
+      - lights.led_outdoor_den
+      - lights.stone_door
     states:
       - state: 'on'
-        class: 'light-on'
+        class: 'lights-on'
       - state: 'off'
-        class: 'outdoor-light-off'
+        class: 'outdoor-lights-off'
 
   - name: Nest Protects
     entities:

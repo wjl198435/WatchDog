@@ -19,6 +19,8 @@ panel_custom: !include conf/panel.yaml
 recorder: !include recorder.yaml
 stream:
 
+mqtt: !include conf/platforms/mosquitto.yaml
+
 media_player :
   - platform: vlc
     name: VLC player
@@ -26,6 +28,8 @@ media_player :
 weather:
   - platform: darksky
     api_key: 8374208137583d64d329f959b166f164
+
+#light: !include conf/lights/street_light.yaml
 
 tts:
   - platform: google_translate
