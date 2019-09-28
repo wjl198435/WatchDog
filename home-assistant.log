@@ -1,1 +1,2 @@
-2019-09-28 14:46:32 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for example_sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-09-28 15:39:26 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for example_sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-09-28 15:39:34 ERROR (MainThread) [frontend.js.latest.201908281] http://localhost:8123/local/custom_ui/floorplan/lib/floorplan.js?_=1569655678179:1099:0 NS_ERROR_FAILURE: 

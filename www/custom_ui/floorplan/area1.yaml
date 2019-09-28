@@ -28,6 +28,8 @@ rules:
   - entity: sensor.example_temperature
     text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
     class_template: 'return "static-temp";'
+
+
 #    text_template: '${entity.state ? entity.state.slice(0, 5) : "00:00"}'
 #    states:
 #      - state: 'on'
@@ -64,12 +66,15 @@ rules:
 #    text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
 #    class_template: 'return "static-temp";'
 #
-#  - name: temp_darksky
-#    entities:
-#      - sensor.temperature
+  - name: temp_darksky
+    entities:
+      - light.mqtt_light
 #    text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
 #    class_template: 'return "static-temp";'
-#
+    image_template: '
+          return "/local/custom_ui/floorplan/images/weather/sunny-1.png"
+          '
+
 #  - name: text_states
 #    entities:
 #      - sensor.temperature
@@ -147,11 +152,13 @@ rules:
 #      return "/local/custom_ui/floorplan/images/weather/" + imageName + ".svg";
 #      '
 
+
+
 #  - name: Camera Images
 #    entities:
-#      - sensor.example_temperature
-#    states:
-#      - state: ''
-#        class: ''
-#    image_template: '${entity.attributes.entity_picture}'
-#    image_template: "/local/custom_ui/floorplan/images/weather/windy.svg"
+#      - light.mqtt_light
+##    image_template: '${entity.attributes.entity_picture}'
+#    image_template:
+#      '
+#      return "/local/custom_ui/floorplan/images/weather/sunny-1.png"
+#      '
