@@ -1,7 +1,7 @@
 """Platform for sensor integration."""
 from homeassistant.const import TEMP_CELSIUS
 from homeassistant.helpers.entity import Entity
-
+import random
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the sensor platform."""
@@ -35,4 +35,4 @@ class ExampleSensor(Entity):
 
         This is the only method that should fetch new data for Home Assistant.
         """
-        self._state = 23
+        self._state = random.randint(17, 28)

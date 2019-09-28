@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85df1f5-0a28-4354-902d-43119a3c10ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/binary_sensors.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/floorplan.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_boolean/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_boolean/hidden_booleans.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_boolean/home_modes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_boolean/trigger_booleans.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel_custom.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panels.orgin/floorplan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/floorplan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/floorplan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/ha-floorplan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/lib/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/lib/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/floorplan/lib/svg-pan-zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.origin/custom_ui/state-card-floorplan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/area1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/area1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/area1.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.homeassistant" beforeDir="false" afterPath="$PROJECT_DIR$/.homeassistant" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/auth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storage/core.config_entries" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/core.config_entries" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/core.restore_state" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/core.restore_state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/panel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/panel.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_components/example_sensor/sensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_components/example_sensor/sensor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-assistant.log" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-assistant_v2.db" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant_v2.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/floorclock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_area1.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secrets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/secrets.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_area1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_area1.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,18 +49,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/conf" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf" />
       <recent name="$PROJECT_DIR$/conf/platforms/sensors" />
       <recent name="$PROJECT_DIR$/conf/platforms/mqtt/switch" />
-      <recent name="$PROJECT_DIR$/conf" />
       <recent name="$PROJECT_DIR$/ReadMe" />
       <recent name="$PROJECT_DIR$/tools/ffsever" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/conf" />
+      <recent name="$PROJECT_DIR$/www/custom_ui/floorplan" />
     </key>
   </component>
   <component name="RunDashboard">

@@ -7,10 +7,10 @@
     hide_app_toolbar:
     config: /local/custom_ui/floorplan/floorplan_area1.yaml
 
-- name: clock
-  sidebar_title: 主界面
-  sidebar_icon: mdi:home
-  url_path: clock
-  config:
-    hide_app_toolbar:
-    config: /local/custom_ui/floorplan/floorplan_main.yaml
+#- name: clock
+#  sidebar_title: 主界面
+#  sidebar_icon: mdi:home
+#  url_path: clock
+#  config:
+#    hide_app_toolbar:
+#    config: /local/custom_ui/floorplan/floorplan_main.yaml
