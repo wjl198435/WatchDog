@@ -2,3 +2,5 @@
 .storage
 .homeassistant
 deps
+home-assistant.log
+home-assistant_v2.db

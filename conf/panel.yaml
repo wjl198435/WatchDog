@@ -5,7 +5,7 @@
   url_path: floorplan
   config:
     hide_app_toolbar:
-    config: /local/custom_ui/floorplan/floorplan.yaml
+    config: /local/custom_ui/floorplan/floorplan_area1.yaml
 
 - name: clock
   sidebar_title: 主界面
@@ -13,4 +13,4 @@
   url_path: clock
   config:
     hide_app_toolbar:
-    config: /local/custom_ui/floorplan/floorclock.yaml
+    config: /local/custom_ui/floorplan/floorplan_main.yaml

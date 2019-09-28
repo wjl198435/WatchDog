@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85df1f5-0a28-4354-902d-43119a3c10ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/platforms/sensors/example.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.homeassistant" beforeDir="false" afterPath="$PROJECT_DIR$/.homeassistant" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/auth" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/auth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storage/core.restore_state" beforeDir="false" afterPath="$PROJECT_DIR$/.storage/core.restore_state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/platforms/mqtt/sensors.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/panel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/panel.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-assistant.log" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-assistant_v2.db" beforeDir="false" afterPath="$PROJECT_DIR$/home-assistant_v2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/floorclock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_area1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/custom_ui/floorplan/floorplan_main.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
