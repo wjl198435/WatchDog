@@ -1,1 +1,2 @@
 - platform: example_sensor
+  scan_interval: 0.1

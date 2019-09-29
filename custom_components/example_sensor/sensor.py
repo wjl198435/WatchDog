@@ -3,9 +3,12 @@ from homeassistant.const import TEMP_CELSIUS
 from homeassistant.helpers.entity import Entity
 import random
 
+MAX = 5000
+
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the sensor platform."""
     add_entities([ExampleSensor()])
+
 
 
 class ExampleSensor(Entity):
@@ -13,7 +16,7 @@ class ExampleSensor(Entity):
 
     def __init__(self):
         """Initialize the sensor."""
-        self._state = None
+        self._state = 0
 
     @property
     def name(self):
@@ -35,4 +38,6 @@ class ExampleSensor(Entity):
 
         This is the only method that should fetch new data for Home Assistant.
         """
-        self._state = random.randint(17, 28)
+        if self._state > MAX:
+            self._state = 0
+        self._state += 1
