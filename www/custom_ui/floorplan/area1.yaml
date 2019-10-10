@@ -25,9 +25,9 @@ rules:
 #      data:
 #        page_id: clock_config
 
-  - entity: sensor.example_temperature
-    text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
-    class_template: 'return "static-temp";'
+#  - entity: sensor.example_temperature
+#    text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
+#    class_template: 'return "static-temp";'
 
 
 #    text_template: '${entity.state ? entity.state.slice(0, 5) : "00:00"}'
@@ -68,12 +68,23 @@ rules:
 #
   - name: temp_darksky
     entities:
-      - light.mqtt_light
+      -  sensor.example_temperature
 #    text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
 #    class_template: 'return "static-temp";'
     image_template: '
-          return "/local/custom_ui/floorplan/images/weather/sunny-1.png"
+          var image_idx = entity.state % 3149
+          return "/local/custom_ui/floorplan/images/ctdet/"+image_idx+".jpg"
           '
+
+  - name: multi_pose
+    entities:
+      -  sensor.example_temperature_2
+    image_template: '
+          var image_idx = entity.state % 438
+          return "/local/custom_ui/floorplan/images/multi_pose/"+image_idx+".jpg"
+          '
+
+
 
 #  - name: text_states
 #    entities:

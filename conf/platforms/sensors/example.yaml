@@ -1,2 +1,7 @@
 - platform: example_sensor
+  name: ctdet
+  scan_interval: 0.1
+
+- platform: example_sensor
+  name: multi_pose
   scan_interval: 0.1

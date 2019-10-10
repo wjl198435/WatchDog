@@ -1,1 +1,1 @@
-2019-09-29 10:13:24 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for example_sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-10-10 11:26:34 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for example_sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.

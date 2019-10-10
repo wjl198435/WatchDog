@@ -1,7 +1,267 @@
 {
     "data": [
         {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Speech Notifications",
+                    "icon": "mdi:speaker-wireless"
+                },
+                "context": {
+                    "id": "1c5546499a6848aea701f121ddbd52c6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.speech_notifications",
+                "last_changed": "2019-10-10T03:26:34.900997+00:00",
+                "last_updated": "2019-10-10T03:26:34.900997+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Work"
+                },
+                "context": {
+                    "id": "96128c0fa87c4f399112ebbf3aa981b4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.work",
+                "last_changed": "2019-10-10T03:26:34.901203+00:00",
+                "last_updated": "2019-10-10T03:26:34.901203+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Home Stats"
+                },
+                "context": {
+                    "id": "96d6c6bd269e485c97ffd9a65e10b0e1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.home_stats",
+                "last_changed": "2019-10-10T03:26:34.901362+00:00",
+                "last_updated": "2019-10-10T03:26:34.901362+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Text Notifications",
+                    "icon": "mdi:cellphone-wireless"
+                },
+                "context": {
+                    "id": "24f9a4be29214998b3dc758f823019fe",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.text_notifications",
+                "last_changed": "2019-10-10T03:26:34.901510+00:00",
+                "last_updated": "2019-10-10T03:26:34.901510+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "responsibilities"
+                },
+                "context": {
+                    "id": "097789640c5049d3bf3571ccda67292b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.responsibilities",
+                "last_changed": "2019-10-10T03:26:34.902190+00:00",
+                "last_updated": "2019-10-10T03:26:34.902190+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Good Night"
+                },
+                "context": {
+                    "id": "a549270ecdeb44afb2a0e1048f513835",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.good_night",
+                "last_changed": "2019-10-10T03:26:34.903014+00:00",
+                "last_updated": "2019-10-10T03:26:34.903014+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Flash"
+                },
+                "context": {
+                    "id": "f24e59ae152740288e16f3bb7603799c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.flash",
+                "last_changed": "2019-10-10T03:26:34.903563+00:00",
+                "last_updated": "2019-10-10T03:26:34.903563+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Color Tornado!"
+                },
+                "context": {
+                    "id": "0dd289e6408845b5a7564916f864a18c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.color_tornado",
+                "last_changed": "2019-10-10T03:26:34.903696+00:00",
+                "last_updated": "2019-10-10T03:26:34.903696+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Guest Mode",
+                    "icon": "mdi:account-alert"
+                },
+                "context": {
+                    "id": "7f6b05a9ada44912b65e6be35480d5ba",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.guest_mode",
+                "last_changed": "2019-10-10T03:26:34.903806+00:00",
+                "last_updated": "2019-10-10T03:26:34.903806+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Good Morning"
+                },
+                "context": {
+                    "id": "d7eb6fd842ed4ecdbbdcdcabff99a65a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.good_morning",
+                "last_changed": "2019-10-10T03:26:34.903909+00:00",
+                "last_updated": "2019-10-10T03:26:34.903909+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "School Mode",
+                    "icon": "mdi:school"
+                },
+                "context": {
+                    "id": "fae87cd861ac43ba86d5f1e31eaae7ec",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.school_mode",
+                "last_changed": "2019-10-10T03:26:34.904135+00:00",
+                "last_updated": "2019-10-10T03:26:34.904135+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Meal Time"
+                },
+                "context": {
+                    "id": "196b5c9c7326400d912e35106eb2824b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.meal_time",
+                "last_changed": "2019-10-10T03:26:34.904354+00:00",
+                "last_updated": "2019-10-10T03:26:34.904354+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Guard Dog"
+                },
+                "context": {
+                    "id": "9fedbebc023a4dc38558bcd7328cdd20",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.guard_dog",
+                "last_changed": "2019-10-10T03:26:34.904474+00:00",
+                "last_updated": "2019-10-10T03:26:34.904474+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Alert Mode",
+                    "icon": "mdi:alert-octagram"
+                },
+                "context": {
+                    "id": "5e026457e6254390a132c194c23c68bc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.alert_mode",
+                "last_changed": "2019-10-10T03:26:34.904606+00:00",
+                "last_updated": "2019-10-10T03:26:34.904606+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "TV Time"
+                },
+                "context": {
+                    "id": "c52733aa0eb64927bd01844342aff8cc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.tv_time",
+                "last_changed": "2019-10-10T03:26:34.904754+00:00",
+                "last_updated": "2019-10-10T03:26:34.904754+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,278 +270,18 @@
                     "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
                 },
                 "context": {
-                    "id": "0800a0bdc5bd498790fbce08699f9663",
+                    "id": "19d7aeab8bae4adf8e576641f088cd94",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.jack",
-                "last_changed": "2019-09-29T02:13:25.338651+00:00",
-                "last_updated": "2019-09-29T02:13:30.948182+00:00",
+                "last_changed": "2019-10-10T03:26:34.905076+00:00",
+                "last_updated": "2019-10-10T03:26:40.470998+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Guest Mode",
-                    "icon": "mdi:account-alert"
-                },
-                "context": {
-                    "id": "60b3e6fbe0c64657a04000ebf0da1b61",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.guest_mode",
-                "last_changed": "2019-09-29T02:13:25.339931+00:00",
-                "last_updated": "2019-09-29T02:13:25.339931+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Good Morning"
-                },
-                "context": {
-                    "id": "bf79fdc7de384d99985952180f81127a",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.good_morning",
-                "last_changed": "2019-09-29T02:13:25.340105+00:00",
-                "last_updated": "2019-09-29T02:13:25.340105+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Guard Dog"
-                },
-                "context": {
-                    "id": "bac3c35654c8415ea75f7d0d2568fad9",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.guard_dog",
-                "last_changed": "2019-09-29T02:13:25.340263+00:00",
-                "last_updated": "2019-09-29T02:13:25.340263+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "School Mode",
-                    "icon": "mdi:school"
-                },
-                "context": {
-                    "id": "537b0e6df0fd43e9921c209e22665423",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.school_mode",
-                "last_changed": "2019-09-29T02:13:25.340773+00:00",
-                "last_updated": "2019-09-29T02:13:25.340773+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Meal Time"
-                },
-                "context": {
-                    "id": "b894be3fd644495abb974298686dc2ef",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.meal_time",
-                "last_changed": "2019-09-29T02:13:25.340931+00:00",
-                "last_updated": "2019-09-29T02:13:25.340931+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Alert Mode",
-                    "icon": "mdi:alert-octagram"
-                },
-                "context": {
-                    "id": "896ece3d9f334d0dbdb6605d99054280",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.alert_mode",
-                "last_changed": "2019-09-29T02:13:25.341086+00:00",
-                "last_updated": "2019-09-29T02:13:25.341086+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "TV Time"
-                },
-                "context": {
-                    "id": "1ea0c48500164bb9bf58f035b3d3b812",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.tv_time",
-                "last_changed": "2019-09-29T02:13:25.341240+00:00",
-                "last_updated": "2019-09-29T02:13:25.341240+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Speech Notifications",
-                    "icon": "mdi:speaker-wireless"
-                },
-                "context": {
-                    "id": "31bfcd7e089e40ac8bee4a822cc3ea10",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.speech_notifications",
-                "last_changed": "2019-09-29T02:13:25.341418+00:00",
-                "last_updated": "2019-09-29T02:13:25.341418+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Work"
-                },
-                "context": {
-                    "id": "cf24368fb7624268a58de2af399af922",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.work",
-                "last_changed": "2019-09-29T02:13:25.341796+00:00",
-                "last_updated": "2019-09-29T02:13:25.341796+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Home Stats"
-                },
-                "context": {
-                    "id": "ab7053c549874249839182ddf48d10ec",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.home_stats",
-                "last_changed": "2019-09-29T02:13:25.342623+00:00",
-                "last_updated": "2019-09-29T02:13:25.342623+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Text Notifications",
-                    "icon": "mdi:cellphone-wireless"
-                },
-                "context": {
-                    "id": "2199ed9bd9fb4b3aa04cfc91074da5fa",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.text_notifications",
-                "last_changed": "2019-09-29T02:13:25.342814+00:00",
-                "last_updated": "2019-09-29T02:13:25.342814+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Flash"
-                },
-                "context": {
-                    "id": "772ae8a00ad34ef59d22b827e458a2e9",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.flash",
-                "last_changed": "2019-09-29T02:13:25.343006+00:00",
-                "last_updated": "2019-09-29T02:13:25.343006+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "responsibilities"
-                },
-                "context": {
-                    "id": "f186ec9d1bd4475c9d6bfb6702484e3f",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.responsibilities",
-                "last_changed": "2019-09-29T02:13:25.343172+00:00",
-                "last_updated": "2019-09-29T02:13:25.343172+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Good Night"
-                },
-                "context": {
-                    "id": "95dcfab72e834725bd9905ce13f23ef0",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.good_night",
-                "last_changed": "2019-09-29T02:13:25.343375+00:00",
-                "last_updated": "2019-09-29T02:13:25.343375+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Color Tornado!"
-                },
-                "context": {
-                    "id": "eea30d3179e349e5b773894560415a9c",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_boolean.color_tornado",
-                "last_changed": "2019-09-29T02:13:25.343532+00:00",
-                "last_updated": "2019-09-29T02:13:25.343532+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
             "state": {
                 "attributes": {
                     "assumed_state": true,
@@ -289,66 +289,31 @@
                     "supported_features": 0
                 },
                 "context": {
-                    "id": "b41a0f7456094d39a23199a58f849c9b",
+                    "id": "a85c859b9d8149f88423190fb63f198e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "light.mqtt_light",
-                "last_changed": "2019-09-29T02:13:25.356311+00:00",
-                "last_updated": "2019-09-29T02:13:25.356311+00:00",
+                "last_changed": "2019-10-10T03:26:34.916077+00:00",
+                "last_updated": "2019-10-10T03:26:34.916077+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-09-29T02:40:54.820364+00:00",
+            "last_seen": "2019-10-10T03:41:08.072090+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Demo Switch"
                 },
                 "context": {
-                    "id": "43f9727db74f442cbb63ffe59cb2a119",
+                    "id": "2bd2dc48032f4692af4803c02fb0d2aa",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.demo_switch",
-                "last_changed": "2019-09-29T02:13:25.389089+00:00",
-                "last_updated": "2019-09-29T02:13:25.389089+00:00",
+                "last_changed": "2019-10-10T03:26:34.946716+00:00",
+                "last_updated": "2019-10-10T03:26:34.946716+00:00",
                 "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-09-24T07:30:10.467754+00:00",
-            "state": {
-                "attributes": {
-                    "assumed_state": true,
-                    "friendly_name": "MQTT Switch"
-                },
-                "context": {
-                    "id": "5465c80562b54bf69ef690b0126618e3",
-                    "parent_id": null,
-                    "user_id": "787ddeb380d149df9c65ab54ba2c7cea"
-                },
-                "entity_id": "switch.mqtt_switch",
-                "last_changed": "2019-09-24T07:29:27.752059+00:00",
-                "last_updated": "2019-09-24T07:29:27.752059+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-09-24T06:49:09.196074+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Bedroom Switch"
-                },
-                "context": {
-                    "id": "981112e8aca5484886427eff1d89be72",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.bedroom_switch",
-                "last_changed": "2019-09-24T06:44:50.620161+00:00",
-                "last_updated": "2019-09-24T06:44:50.620161+00:00",
-                "state": "unavailable"
             }
         }
     ],
