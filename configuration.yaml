@@ -24,8 +24,9 @@ logger: !include conf/logger.yaml
 
 image_processing:
   - platform: ctdet
+    scan_interval: 1
     source:
-      - entity_id: camera.door
+      - entity_id: camera.pc_camera
         name: "ctdet"
 #image_processing:
 #  - platform: ctdet
@@ -50,10 +51,12 @@ image_processing:
 stream:
 
 #ffmpeg -i /dev/video0 -codec:v libx264 -qp 0 lossless.mp4
+ffmpeg:
+  ffmpeg_bin: /usr/local/bin/ffmpeg
 #camera:
 #  - platform: ffmpeg
-#    name: PC-Camera
-#    input: -i /dev/video0
+#    name: Camera
+#    input: -f dshow -i /dev/video0
 #    extra_arguments: -pred 1 -q:v 2 -s 704x576  -codec:v libx264
 
 
@@ -63,7 +66,8 @@ stream:
 camera:
   - platform: mjpeg
     mjpeg_url: http://localhost:8081
-    name: Cranberry Live cam
+#    mjpeg_url: /dev/video0
+    name: pc_camera
 
 weather:
   - platform: darksky

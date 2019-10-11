@@ -23,7 +23,7 @@
    height="1080"><metadata
    id="metadata6003"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs6001"><linearGradient
      id="linearGradient1035"
      osb:paint="solid"><stop
@@ -43,7 +43,7 @@
    id="namedview5999"
    showgrid="false"
    inkscape:zoom="0.57226562"
-   inkscape:cx="692.35664"
+   inkscape:cx="694.9778"
    inkscape:cy="535.08768"
    inkscape:window-x="65"
    inkscape:window-y="24"
@@ -156,12 +156,14 @@
    y="234.97049">10:36</text>
 
 
+
 <text
    id="sensor.clock_day"
    transform="scale(1.095582,0.91275687)"
    style="font-size:51.49235535px;font-family:Helvetica;fill:#808080;stroke-width:1.09558201"
    x="16.741604"
    y="1096.1973">NedNesDay</text>
+
 
 
 <text
@@ -171,6 +173,7 @@
    style="font-size:51.49235535px;font-family:Helvetica;fill:#808080;stroke-width:1.09558201;enable-background:new"
    x="16.741604"
    y="1165.1973">November 33</text>
+
 
 
 <g
@@ -248,6 +251,7 @@
      id="tspan10077">XXXXX</tspan></text>
 
 
+
 <rect
    id="camera.stone_door"
    x="14.02998"
@@ -283,12 +287,14 @@
    y="924.37543">72</text>
 
 
+
 <text
    id="climate.upstairs"
    inkscape:label="#text136"
    style="font-size:47.56999969px;font-family:ArialMT;fill:#808080;enable-background:new"
    x="1790.2571"
    y="980.37549">72</text>
+
 
 
 <text
@@ -300,6 +306,7 @@
    y="885.99817">1st Floor</text>
 
 
+
 <text
    id="second_floor"
    inkscape:label="#text136"
@@ -307,6 +314,7 @@
    style="font-size:46.03998184px;font-family:Helvetica;fill:#808080;stroke-width:0.95916629;enable-background:new"
    x="1674.5809"
    y="939.99811">2ndFloor</text>
+
 
 
 <rect
@@ -319,13 +327,13 @@
    height="83.800003">
 </rect>
 <rect
-   id="input_boolean.clock_snooze"
+   id="camera.pc_camera"
    x="14.02998"
-   y="369.52661"
+   y="299.629"
    inkscape:label="#rect140"
-   style="fill:#333333"
+   style="fill:#333333;stroke-width:1.29061675"
    width="190"
-   height="105">
+   height="174.89761">
 </rect>
 <text
    id="sensor.dark_sky_minutely_summary"
@@ -334,11 +342,13 @@
    y="146.57338">Hell Fire for the next 2 hours</text>
 
 
+
 <text
    id="sensor.dark_sky_temperature"
    style="font-size:48px;font-family:Helvetica;fill:#808080"
    x="179.22383"
    y="87.160408">72</text>
+
 
 
 <g
@@ -455,6 +465,7 @@
    style="font-size:59.64450073px;font-family:Helvetica;fill:#00adee"
    x="33.486523"
    y="779.42664">00:00</text>
+
 
 
 <rect

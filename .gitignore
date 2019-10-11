@@ -1,5 +1,4 @@
 .cloud
-.storage
 .homeassistant
 .storage/core.restore_state
 .idea/workspace.xml

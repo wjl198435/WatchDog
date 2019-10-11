@@ -83,7 +83,16 @@ rules:
           var image_idx = entity.state % 438
           return "/local/custom_ui/floorplan/images/multi_pose/"+image_idx+".jpg"
           '
-
+  - name:  Cameras
+    entities:
+      - camera.pc_camera
+    states:
+      - state: 'idle'
+        class: 'camera-idle'
+    image_template: '
+         ${entity.attributes.entity_picture}
+        '
+    image_refresh_interval: 1
 
 
 #  - name: text_states

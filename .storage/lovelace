@@ -9,7 +9,20 @@
                         "person.jack",
                         "sun.sun"
                     ],
-                    "cards": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "70%",
+                            "type": "iframe",
+                            "url": "http://localhost:8081"
+                        },
+                        {
+                            "camera_image": "camera.pc_camera",
+                            "camera_view": "live",
+                            "entities": [],
+                            "title": "Front garden",
+                            "type": "picture-glance"
+                        }
+                    ],
                     "path": "default_view",
                     "title": "Home"
                 }
