@@ -26,7 +26,7 @@ image_processing:
   - platform: ctdet
     source:
       - entity_id: camera.door
-        name: "hello"
+        name: "ctdet"
 #image_processing:
 #  - platform: ctdet
 #    source:
@@ -48,6 +48,22 @@ image_processing:
 #  topic: "home-assistant/mqtt_example"
 
 stream:
+
+#ffmpeg -i /dev/video0 -codec:v libx264 -qp 0 lossless.mp4
+#camera:
+#  - platform: ffmpeg
+#    name: PC-Camera
+#    input: -i /dev/video0
+#    extra_arguments: -pred 1 -q:v 2 -s 704x576  -codec:v libx264
+
+
+
+# sudo motion
+# 本机camera 获取 https://www:home-assistant:io/blog/2016/06/23/usb-webcams-and-home-assistant/:
+camera:
+  - platform: mjpeg
+    mjpeg_url: http://localhost:8081
+    name: Cranberry Live cam
 
 weather:
   - platform: darksky

@@ -1,6 +1,8 @@
 .cloud
 .storage
 .homeassistant
+.storage/core.restore_state
+.idea/workspace.xml
 deps
 home-assistant.log
 home-assistant_v2.db

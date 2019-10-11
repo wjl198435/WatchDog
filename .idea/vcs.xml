@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ReadMe/ffmpeg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ReadMe/x264" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ReadMe/x264/ffmpeg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/www/custom_ui/floorplan/lib/app-media" vcs="Git" />
   </component>
 </project>

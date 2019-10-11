@@ -25,16 +25,47 @@
     yasm \
     zlib1g-dev
 
-wget http://ffmpeg.org/releases/ffmpeg-3.2.tar.bz2
-tar -xjf ffmpeg-3.2.tar.bz2
-cd ffmpeg-3.2
+    wget http://ffmpeg.org/releases/ffmpeg-3.2.tar.bz2
+    tar -xjf ffmpeg-3.2.tar.bz2
+    cd ffmpeg-3.2
 
-./configure --disable-static --enable-shared --disable-doc
-make
-sudo make install
+    ./configure --disable-static --enable-shared --disable-doc
+    make
+    sudo make install
 
-pip install av
+    pip install av
 
 ## 2.可选stream安装
-   sudo apt-get install -y python-dev pkg-config libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
-Te
+    sudo apt-get install -y python-dev pkg-config libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
+
+
+
+
+
+### 3.解决Ubuntu16.04视频编码出现Unknown encoder 'libx264'问题
+     3.1 sudo apt-get install libfdk-aac-dev libass-dev libopus-dev  libtheora-dev libvorbis-dev libvpx-dev libssl-dev
+     3.2 sudo apt-get install nasm （版本大于2.13）
+         下载： http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D 
+         cd ~/src/nasm-2.13.02
+         ./configure
+         make -j8
+         sudo make install
+     3.3 git clone git://git.videolan.org/x264.git
+         cd x264
+         ./configure --enable-static --enable-shared
+         make -j8
+         sudo make install
+     3.4 
+     git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg
+ ./configure  --enable-gpl   --enable-libass   --enable-libfdk-aac   --enable-libfreetype   --enable-libmp3lame   --enable-libopus   --enable-libtheora   --enable-libvorbis   --enable-libvpx   --enable-libx264   --enable-nonfree --enable-shared --enable-openssl 
+     make -j8
+     sudo make install
+     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+     ldd ffmpeg
+     ffmpeg  –version
+     
+     
+     
+### Using USB webcams with Home Assistant
+    https://www.home-assistant.io/blog/2016/06/23/usb-webcams-and-home-assistant/     
+        

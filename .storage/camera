@@ -2,6 +2,9 @@
     "data": {
         "camera.camera": {
             "preload_stream": true
+        },
+        "camera.pc_camera": {
+            "preload_stream": false
         }
     },
     "key": "camera",
