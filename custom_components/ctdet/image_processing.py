@@ -21,7 +21,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     _LOGGER.warn("image_processing ctdet")
     entities = []
     for camera in config[CONF_SOURCE]:
-        _LOGGER.warn("image_processing %s:", camera.get(CONF_NAME))
+        _LOGGER.warn("image_processing %s: %s", camera.get(CONF_NAME),camera[CONF_ENTITY_ID])
         entities.append(QrEntity(camera[CONF_ENTITY_ID], camera.get(CONF_NAME)))
 
     add_entities(entities)

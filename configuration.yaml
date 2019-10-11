@@ -26,6 +26,7 @@ image_processing:
   - platform: ctdet
     source:
       - entity_id: camera.door
+        name: "hello"
 #image_processing:
 #  - platform: ctdet
 #    source:
