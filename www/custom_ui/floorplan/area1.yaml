@@ -66,7 +66,7 @@ rules:
 #    text_template: '${entity.attributes.current_temperature ? Math.ceil(entity.attributes.current_temperature) + "°": "undefined"}'
 #    class_template: 'return "static-temp";'
 #
-  - name: temp_darksky
+  - name: ctdet
     entities:
       -  sensor.example_temperature
 #    text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'

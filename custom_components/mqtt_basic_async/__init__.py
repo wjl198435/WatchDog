@@ -28,14 +28,15 @@ CONF_TOPIC = 'topic'
 DEFAULT_TOPIC = 'home-assistant/mqtt_example'
 
 # Schema to validate the configured MQTT topic
-CONFIG_SCHEMA = vol.Schema({
-    vol.Optional(CONF_TOPIC, default=DEFAULT_TOPIC): mqtt.valid_subscribe_topic
-})
+# CONFIG_SCHEMA = vol.Schema({
+#     vol.Optional(CONF_TOPIC, default=DEFAULT_TOPIC): mqtt.valid_subscribe_topic
+# })
 
 
 async def async_setup(hass, config):
     """Setup the MQTT example component."""
-    topic = config[DOMAIN][CONF_TOPIC]
+    # topic = config[DOMAIN][CONF_TOPIC]
+    topic = "hello"
     entity_id = 'mqtt_example.last_message'
 
     # Listen to a message on MQTT.

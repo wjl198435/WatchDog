@@ -21,6 +21,31 @@ panel_custom: !include conf/panel.yaml
 recorder: !include conf/recorder.yaml
 logger: !include conf/logger.yaml
 
+
+image_processing:
+  - platform: ctdet
+    source:
+      - entity_id: camera.door
+#image_processing:
+#  - platform: ctdet
+#    source:
+#      - entity_id: camera.local_file
+#    file_out:
+#      - "/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
+#      - "/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+
+#image_processing:
+#  - platform: ctdet
+#    topic: 'home-assistan'
+#    name: "hello"
+
+
+#mqtt_basic_async:
+#  topic: "home-assistant/mqtt_example"
+
+#mqtt_basic:
+#  topic: "home-assistant/mqtt_example"
+
 stream:
 
 weather:

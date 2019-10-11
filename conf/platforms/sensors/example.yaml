@@ -5,3 +5,5 @@
 - platform: example_sensor
   name: multi_pose
   scan_interval: 0.1
+
+
