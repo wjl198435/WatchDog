@@ -18,9 +18,17 @@
                         {
                             "camera_image": "camera.pc_camera",
                             "camera_view": "live",
-                            "entities": [],
+                            "entities": [
+                                "light.mqtt_light"
+                            ],
+                            "image": "http://localhost:8081",
                             "title": "Front garden",
                             "type": "picture-glance"
+                        },
+                        {
+                            "camera_view": "live",
+                            "entity": "camera.pc_camera1",
+                            "type": "picture-entity"
                         }
                     ],
                     "path": "default_view",
