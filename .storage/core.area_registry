@@ -2,16 +2,16 @@
     "data": {
         "areas": [
             {
-                "id": "9be436665cef414cab050b54daab89d7",
-                "name": "Living Room"
+                "id": "f8e2a408cdb94726974247557143d4be",
+                "name": "\u5ba2\u5385"
             },
             {
-                "id": "63697919a46f49988a9a5fc30cc6475c",
-                "name": "Kitchen"
+                "id": "949512f4672744e5b5461a3b98be78b9",
+                "name": "\u53a8\u623f"
             },
             {
-                "id": "6994054d12bf49588bf8353d756f8946",
-                "name": "Bedroom"
+                "id": "56ae231fb95f4260ba3a7a26267f53c3",
+                "name": "\u5367\u5ba4"
             }
         ]
     },

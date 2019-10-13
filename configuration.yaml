@@ -13,7 +13,7 @@ homeassistant: !include conf/homeassistant.yaml
 
 frontend:
   # Example absolute path: /home/paulus/dev/hass/home-assistant-polymer
-  development_repo: /home/jack/WatchDog/home-assistant-polymer
+  development_repo: /home/jack/Work/home-assistant-polymer
 
 default_config:
 

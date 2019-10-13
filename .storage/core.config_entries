@@ -5,13 +5,28 @@
                 "connection_class": "local_push",
                 "data": {},
                 "domain": "mqtt",
-                "entry_id": "689a8a7382f640758bea4ba73e32fa81",
+                "entry_id": "4973d0fc928a478ebd63c869d39fe2b1",
                 "options": {},
                 "source": "import",
                 "system_options": {
                     "disable_new_entities": false
                 },
                 "title": "configuration.yaml",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "8b15dafc16cf47b8b893ff0d8e0a0d85",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
                 "version": 1
             }
         ]

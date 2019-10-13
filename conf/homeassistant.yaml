@@ -7,6 +7,7 @@ elevation: !secret base_elevation
 latitude: !secret base_latitude
 longitude: !secret base_longitude
 name: !secret base_name
+
 packages: !include_dir_named packages/
 temperature_unit: F
 time_zone: !secret base_time_zone

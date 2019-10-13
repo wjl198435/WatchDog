@@ -2,12 +2,8 @@
     "data": {
         "users": [
             {
-                "password": "JDJiJDEyJFJxQzN6THZYM3hxd2lXT3Fsb3FEdGUvUFNaNkJWbUhpQVd4U0FWYU5FRXNxeFdqb3BqQmNX",
+                "password": "JDJiJDEyJGZFWVZSQTAwMnRzYjdINTVYb2VFYU9hb0Z0SC9oMGVmdmhzN1ZDWlNILjFYUUo4RUNOSkNH",
                 "username": "jack"
-            },
-            {
-                "password": "JDJiJDEyJDR6YWs2SU44Mm9TTTJQN2pOUTBESHVpYk1XcmdVaGdHaDFCL0NWeXlITXRrM1FwVjZWbVU2",
-                "username": "mqtt"
             }
         ]
     },

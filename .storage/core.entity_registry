@@ -17,7 +17,16 @@
                 "entity_id": "person.jack",
                 "name": null,
                 "platform": "person",
-                "unique_id": "f9baad7f7ded4ec4b841248385d74c45"
+                "unique_id": "8ca506b5bcd54c99beba6e85a75be6e0"
+            },
+            {
+                "config_entry_id": "8b15dafc16cf47b8b893ff0d8e0a0d85",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.mu_yang_quan",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
             }
         ]
     },
