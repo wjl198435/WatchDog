@@ -10,6 +10,11 @@
 
 homeassistant: !include conf/homeassistant.yaml
 
+
+frontend:
+  # Example absolute path: /home/paulus/dev/hass/home-assistant-polymer
+  development_repo: /home/jack/WatchDog/home-assistant-polymer
+
 default_config:
 
 #camera: !include conf/media_player/ffmpeg.yaml
