@@ -72,7 +72,7 @@ rules:
 #    text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
 #    class_template: 'return "static-temp";'
     image_template: '
-          var image_idx = entity.state % 3149
+          var image_idx = entity.state % 200
           return "/local/custom_ui/floorplan/images/ctdet/"+image_idx+".jpg"
           '
 
@@ -80,7 +80,7 @@ rules:
     entities:
       -  sensor.example_temperature_2
     image_template: '
-          var image_idx = entity.state % 438
+          var image_idx = entity.state % 200
           return "/local/custom_ui/floorplan/images/multi_pose/"+image_idx+".jpg"
           '
   - name:  Cameras
