@@ -1,10 +1,10 @@
 ---
-broker: 0.0.0.0
-port: 1883
-client_id: demo_wd
+broker: !secret mqtt_broker
+port: !secret mqtt_port
+client_id: !secret  client_id
 username: !secret mosquitto_username
 password: !secret mosquitto_password
-protocol: 3.1
+protocol: !secret mqtt_protocol
 
 discovery: true
 discovery_prefix: homeassistant
