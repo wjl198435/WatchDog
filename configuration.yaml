@@ -70,8 +70,8 @@ ffmpeg:
 # 本机camera 获取 https://www:home-assistant:io/blog/2016/06/23/usb-webcams-and-home-assistant/:
 camera:
   - platform: mjpeg
-    mjpeg_url: http://localhost:8081
-#    mjpeg_url: /dev/video0
+    mjpeg_url: !secret motion_camera_url
+#    mjpeg_url: file:/dev/video0
     name: pc_camera
 
 weather:
