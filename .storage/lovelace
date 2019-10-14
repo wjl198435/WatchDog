@@ -1,0 +1,87 @@
+{
+    "data": {
+        "config": {
+            "title": "\u7267\u517b\u72ac",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.floorplan",
+                        "binary_sensor.updater",
+                        "person.jack",
+                        "sensor.example_temperature",
+                        "sensor.example_temperature_2",
+                        "sensor.temperature",
+                        "sensor.humidity",
+                        "sensor.illuminance",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "fan.mqtt_fan"
+                            ],
+                            "title": "\u98ce\u6247",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "input_boolean.home_stats",
+                                "input_boolean.work",
+                                "input_boolean.text_notifications",
+                                "input_boolean.flash",
+                                "input_boolean.responsibilities",
+                                "input_boolean.good_night",
+                                "input_boolean.guest_mode",
+                                "input_boolean.color_tornado",
+                                "input_boolean.good_morning",
+                                "input_boolean.guard_dog",
+                                "input_boolean.school_mode",
+                                "input_boolean.meal_time",
+                                "input_boolean.alert_mode",
+                                "input_boolean.tv_time",
+                                "input_boolean.speech_notifications"
+                            ],
+                            "title": "\u4e8c\u5143\u9009\u62e9\u5668",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.mqtt_light"
+                            ],
+                            "title": "\u706f\u5149",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.demo_switch"
+                            ],
+                            "title": "\u5f00\u5173",
+                            "type": "entities"
+                        },
+                        {
+                            "aspect_ratio": "0%",
+                            "camera_image": "camera.pc_camera",
+                            "camera_view": "live",
+                            "entities": [
+                                {
+                                    "entity": "camera.pc_camera"
+                                }
+                            ],
+                            "image": "https://www.home-assistant.io/images/merchandise/shirt-frontpage.png",
+                            "title": "home",
+                            "type": "picture-glance"
+                        },
+                        {
+                            "entity": "weather.mu_yang_quan",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

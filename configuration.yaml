@@ -27,12 +27,12 @@ recorder: !include conf/recorder.yaml
 logger: !include conf/logger.yaml
 
 
-image_processing:
-  - platform: ctdet
-    scan_interval: 1
-    source:
-      - entity_id: camera.pc_camera
-        name: "ctdet"
+#image_processing:
+#  - platform: ctdet
+#    scan_interval: 1
+#    source:
+#      - entity_id: camera.pc_camera
+#        name: "ctdet"
 #image_processing:
 #  - platform: ctdet
 #    source:
